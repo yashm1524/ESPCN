@@ -7,9 +7,8 @@ import torch
 import torch.nn as nn
 import torch.backends.cudnn as cudnn
 from utils import AverageMeter, calculate_psnr
-from model_improved import ESPCN  # Using improved model
-from dataloader_gopro_augmented import get_data_loader  # Using augmented dataloader
-
+from model import ESPCN
+from dataloader import get_data_loader
 
 def train(model, train_loader, device, criterion, optimizer):
     """ Function to train the model
