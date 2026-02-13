@@ -34,7 +34,7 @@ CUDA >= 11.0 (for GPU training)
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ESPCN-GOPRO.git
+git clone https://github.com/yashm1524/ESPCN-GOPRO.git
 cd ESPCN-GOPRO
 
 # Install dependencies
@@ -58,7 +58,7 @@ opencv-python>=4.5.0
 
 ### Download Pre-trained Model
 
-Download the pre-trained model (30.76 dB PSNR) from [Releases](https://github.com/YOUR_USERNAME/ESPCN-GOPRO/releases):
+Download the pre-trained model (30.76 dB PSNR) from [Releases](https://github.com/yashm1524/ESPCN-GOPRO/releases):
 - `best.pth` - Baseline model (30.36 dB)
 - Or train your own model (see Training section)
 
@@ -396,9 +396,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or issues, please open an issue on GitHub or contact:
-- **Author**: [Your Name]
+- **Author**: Yash Makvana
 - **Email**: yashm1524@gmail.com
-- **Project**: [https://github.com/YOUR_USERNAME/ESPCN-GOPRO](https://github.com/YOUR_USERNAME/ESPCN-GOPRO)
+- **Project**: [https://github.com/yashm1524/ESPCN-GOPRO](https://github.com/yashm1524/ESPCN-GOPRO)
 
 ---
 
