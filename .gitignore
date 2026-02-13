@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+GOPRO_SR/
+models/
+models_improved/
+models_improved_v1/
+exported_models/
+*.log
+training*.log
+full_training.log
+test_training.log
+
+# Keep sample outputs but ignore bulk outputs
+datasets/*
+!datasets/.gitkeep
+output/
+outputs/
+
+# Keep model directory structure but ignore model files
+assets/models/*.pth
+!assets/models/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
